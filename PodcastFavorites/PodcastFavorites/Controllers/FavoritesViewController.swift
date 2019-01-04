@@ -31,7 +31,7 @@ class FavoritesViewController: UIViewController {
   }
   
   private func fetchFavorites() {
-    guard let encodedName = "Alex Paul".addingPercentEncoding(withAllowedCharacters: .urlHostAllowed) else {
+    guard let encodedName = "NAME GOES HERE...".addingPercentEncoding(withAllowedCharacters: .urlHostAllowed) else {
       return
     }
     PodcastAPIClient.getFavorites(name: encodedName) { (appError, favorites) in
