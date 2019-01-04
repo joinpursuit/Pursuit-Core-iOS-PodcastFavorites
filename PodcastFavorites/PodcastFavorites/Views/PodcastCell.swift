@@ -22,6 +22,7 @@ class PodcastCell: UITableViewCell {
     urlString = podcast.artworkUrl600.absoluteString
     
     podcastCollectionName.text = podcast.collectionName
+    podcastArtistName.text = podcast.artistName
     if let image = ImageHelper.shared.image(forKey: podcast.artworkUrl600.absoluteString as NSString) {
       podcastImage.image = image
     } else {

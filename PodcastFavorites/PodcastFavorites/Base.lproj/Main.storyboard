@@ -40,14 +40,14 @@
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Collection Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KS3-8i-QW1">
-                                                    <rect key="frame" x="108" y="16" width="126" height="21"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <rect key="frame" x="108" y="16" width="244" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Artist Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CMb-Eu-Umv">
-                                                    <rect key="frame" x="108" y="62.5" width="91" height="21"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <rect key="frame" x="108" y="66.5" width="244" height="17"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -58,6 +58,7 @@
                                                 </activityIndicatorView>
                                             </subviews>
                                             <constraints>
+                                                <constraint firstAttribute="trailingMargin" secondItem="CMb-Eu-Umv" secondAttribute="trailing" constant="8" id="04Z-dd-b8z"/>
                                                 <constraint firstAttribute="bottom" secondItem="CMb-Eu-Umv" secondAttribute="bottom" constant="16" id="8oG-VM-cDL"/>
                                                 <constraint firstItem="KS3-8i-QW1" firstAttribute="top" secondItem="1Np-2R-3VZ" secondAttribute="top" constant="16" id="Jtx-lY-h5q"/>
                                                 <constraint firstItem="Mrw-mQ-g5z" firstAttribute="leading" secondItem="1Np-2R-3VZ" secondAttribute="leading" id="Tfc-vA-CEl"/>
@@ -65,6 +66,7 @@
                                                 <constraint firstItem="CMb-Eu-Umv" firstAttribute="leading" secondItem="Mrw-mQ-g5z" secondAttribute="trailing" constant="8" id="mT3-v7-2NC"/>
                                                 <constraint firstItem="KS3-8i-QW1" firstAttribute="leading" secondItem="Mrw-mQ-g5z" secondAttribute="trailing" constant="8" id="nti-BN-RNx"/>
                                                 <constraint firstAttribute="bottom" secondItem="Mrw-mQ-g5z" secondAttribute="bottom" id="v6D-Lj-ZAj"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="KS3-8i-QW1" secondAttribute="trailing" constant="8" id="zpy-gn-pwE"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
