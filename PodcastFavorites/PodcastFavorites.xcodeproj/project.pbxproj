@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		57B982F421DEF84500F66547 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B982F321DEF84500F66547 /* Constants.swift */; };
 		57D273B921DE8C0500950C16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D273B821DE8C0500950C16 /* AppDelegate.swift */; };
 		57D273BB21DE8C0500950C16 /* PodcastSearchResultsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D273BA21DE8C0500950C16 /* PodcastSearchResultsController.swift */; };
 		57D273BE21DE8C0500950C16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57D273BC21DE8C0500950C16 /* Main.storyboard */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		57B982F321DEF84500F66547 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		57D273B521DE8C0500950C16 /* PodcastFavorites.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PodcastFavorites.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57D273B821DE8C0500950C16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57D273BA21DE8C0500950C16 /* PodcastSearchResultsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastSearchResultsController.swift; sourceTree = "<group>"; };
@@ -53,6 +55,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		57B982F521DEF8A700F66547 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				57B982F321DEF84500F66547 /* Constants.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		57D273AC21DE8C0500950C16 = {
 			isa = PBXGroup;
 			children = (
@@ -77,6 +87,7 @@
 				57D273D621DE8F6900950C16 /* Views */,
 				57D273D521DE8F4D00950C16 /* Controllers */,
 				57D273BC21DE8C0500950C16 /* Main.storyboard */,
+				57B982F521DEF8A700F66547 /* Utilities */,
 				57D273CA21DE8C1900950C16 /* Supporting Files */,
 				57D273C421DE8C0600950C16 /* Info.plist */,
 			);
@@ -213,6 +224,7 @@
 				57D273E021DEDDEE00950C16 /* PodcastCell.swift in Sources */,
 				57D273DE21DED72300950C16 /* FavoritesViewController.swift in Sources */,
 				57D273B921DE8C0500950C16 /* AppDelegate.swift in Sources */,
+				57B982F421DEF84500F66547 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

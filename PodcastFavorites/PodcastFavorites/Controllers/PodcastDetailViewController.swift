@@ -45,7 +45,7 @@ class PodcastDetailViewController: UIViewController {
   @IBAction func addToFavorites(_ sender: UIBarButtonItem) {
     // required parameters for favoriting
     // trackId, favoritedBy, collectionName, artworkUrl600
-    let favorite = Favorite.init(trackId: podcast.trackId, favoritedBy: "NAME GOES HERE....", collectionName: podcast.collectionName, artworkUrl600: podcast.artworkUrl600)
+    let favorite = Favorite.init(trackId: podcast.trackId, favoritedBy: Constants.Name, collectionName: podcast.collectionName, artworkUrl600: podcast.artworkUrl600)
     
     // encode the favorite object as Data to send to the API
     // using JSONEncoder()
